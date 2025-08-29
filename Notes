@@ -9,4 +9,4 @@ Difficulties
 - Setting up aws
     - Get access key from security credentials -> create access key
     - Mention REGION while making a connection to S3 (ERROR: Access Denied)
-    
+    - DONT EXPOSE AWS KEYS
