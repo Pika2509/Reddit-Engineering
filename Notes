@@ -5,3 +5,8 @@ Difficulties
 - Setting up custom airflow
     - conflicting dependencies
     - tried using latest version but a lot of syntax change so had to switch back to old stable version
+
+- Setting up aws
+    - Get access key from security credentials -> create access key
+    - Mention REGION while making a connection to S3 (ERROR: Access Denied)
+    
