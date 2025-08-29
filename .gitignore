@@ -1,0 +1,49 @@
+# Logs
+logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+*.env
+
+# Airflow
+airflow.db
+airflow-webserver.pid
+standalone_admin_password.txt
+webserver_config.py
+
+# Data files
+data/
+*.csv
+*.json
+*.parquet
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
