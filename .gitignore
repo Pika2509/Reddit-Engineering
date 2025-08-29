@@ -34,7 +34,8 @@ standalone_admin_password.txt
 webserver_config.py
 
 # Data files
-data/
+data/*
+!data/.gitkeep
 *.csv
 *.json
 *.parquet
