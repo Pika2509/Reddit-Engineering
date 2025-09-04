@@ -10,3 +10,7 @@ Difficulties
     - Get access key from security credentials -> create access key
     - Mention REGION while making a connection to S3 (ERROR: Access Denied)
     - DONT EXPOSE AWS KEYS
+
+-- Reading from s3 into glue
+    - No permission given to specifi s3 bucket only temp tables created within glue 
+    - Created inline policy for the role to give permission to buckets
